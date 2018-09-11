@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity implements TextToSpeech.OnIn
 
                     }
 
-                    if (var4[var5 + 5].equals("")|| var4[var5 + 5].isEmpty()) {
+                    if (var4[var5 + 5].equals("")|| var4[var5 + 5]==null) {
                         productos=var4[var5 + 4];
 
                     }else {
